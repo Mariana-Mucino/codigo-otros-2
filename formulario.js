@@ -1,4 +1,4 @@
-var formulario = document.querySelector("#form")
+var formulario = document.getElementsByTagName("form") // Se modificó "form" ya que es una etiqueta
 
 formulario.onsubmit = function(e) {
 
